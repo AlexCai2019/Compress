@@ -1,16 +1,16 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"category": "building",
-	"group": "netherrack_4",
+	"group": "cobblestone_4",
 	"ingredients":
 	[
 		{
-			"item": "more_stack:netherrack_5"
+			"item": "more_stack:cobblestone_5"
 		}
 	],
 	"result":
 	{
-		"id": "more_stack:netherrack_4",
+		"id": "more_stack:cobblestone_4",
 		"count": 9
 	}
 }

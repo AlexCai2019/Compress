@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "cobblestone_7",
+	"pattern":
+	[
+		"CCC",
+		"CCC",
+		"CCC"
+	],
+	"key":
+	{
+		"C":
+		{
+			"item": "more_stack:cobblestone_6"
+		}
+	},
+	"result":
+	{
+		"id": "more_stack:cobblestone_7"
+	}
+}

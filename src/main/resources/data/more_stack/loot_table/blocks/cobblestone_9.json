@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "more_stack:cobblestone_9"
+				}
+			],
+			"conditions":
+			[
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -10,8 +10,8 @@ public class MoreStack implements ModInitializer
 
 	static final String[] BLOCKS = //可被壓縮的方塊
 	{
-		"netherrack"/*,
-		"cobblestone"*/
+		"netherrack",
+		"cobblestone"
 	};
 
 	@Override
