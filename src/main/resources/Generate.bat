@@ -1,0 +1,1 @@
+java --source 21 --enable-preview Generate.java

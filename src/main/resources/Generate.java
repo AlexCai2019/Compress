@@ -6,7 +6,8 @@ public class Generate
 	private static final String[] blocks =
 	{
 		"netherrack",
-		"cobblestone"
+		"cobblestone",
+		"cobbled_deepslate"
 	};
 	private static final int LAYERS = 9;
 
@@ -14,14 +15,14 @@ public class Generate
 	{
 		for (String block : blocks)
 		{
-			/*for (int layer = 1; layer <= LAYERS; layer++)
+			for (int layer = 1; layer <= LAYERS; layer++)
 			{
 				blockState(block, layer);
 				lang(block, layer);
 				blockModel(block, layer);
 				itemModel(block, layer);
 				lootTable(block, layer);
-			}*/
+			}
 
 			decompress(block, 0);
 			for (int layer = 1; layer < LAYERS; layer++)
@@ -51,8 +52,8 @@ public class Generate
 		FileWriter en = new FileWriter("assets/more_stack/lang/en_us.json", true);
 		FileWriter zh = new FileWriter("assets/more_stack/lang/zh_tw.json", true);
 
-		en.write(STR."\"block.more_stack.\{block}_\{layer}\": \"\{layer}\",\n");
-		zh.write(STR."\"block.more_stack.\{block}_\{layer}\": \"\{layer}\",\n");
+		en.write(STR."\"block.more_stack.\{block}_\{layer}\": \"Compressed \{block.substring(0, 1).toUpperCase()}\{block.substring(1)} \{layer}\",\n");
+		zh.write(STR."\"block.more_stack.\{block}_\{layer}\": \"\\u58d3\\u7e2e\\u7684 \{layer}\",\n");
 
 		en.close();
 		zh.close();
