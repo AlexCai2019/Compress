@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "granite_5",
+	"pattern":
+	[
+		"GGG",
+		"GGG",
+		"GGG"
+	],
+	"key":
+	{
+		"G":
+		{
+			"item": "more_stack:granite_4"
+		}
+	},
+	"result":
+	{
+		"id": "more_stack:granite_5"
+	}
+}

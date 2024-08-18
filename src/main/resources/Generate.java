@@ -7,7 +7,10 @@ public class Generate
 	{
 		"netherrack",
 		"cobblestone",
-		"cobbled_deepslate"
+		"cobbled_deepslate",
+		"andesite",
+		"diorite",
+		"granite"
 	};
 	private static final int LAYERS = 9;
 
@@ -41,7 +44,10 @@ public class Generate
 		{
 			"variants":
 			{
-				"": { "model": "more_stack:block/\{block}_\{layer}" }
+				"":
+				{
+					"model": "more_stack:block/\{block}_\{layer}"
+				}
 			}
 		}""");
 		writer.close();

@@ -1,6 +1,9 @@
 {
 	"variants":
 	{
-		"": { "model": "more_stack:block/netherrack_7" }
+		"":
+		{
+			"model": "more_stack:block/netherrack_7"
+		}
 	}
 }

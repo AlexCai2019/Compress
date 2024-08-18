@@ -1,6 +1,9 @@
 {
 	"variants":
 	{
-		"": { "model": "more_stack:block/cobblestone_5" }
+		"":
+		{
+			"model": "more_stack:block/cobblestone_5"
+		}
 	}
 }

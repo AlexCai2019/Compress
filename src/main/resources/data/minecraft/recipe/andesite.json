@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "andesite",
+	"ingredients":
+	[
+		{
+			"item": "minecraft:diorite"
+		},
+		{
+			"item": "minecraft:cobblestone"
+		}
+	],
+	"result":
+	{
+		"id": "minecraft:andesite",
+		"count": 2
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "diorite_6",
+	"pattern":
+	[
+		"DDD",
+		"DDD",
+		"DDD"
+	],
+	"key":
+	{
+		"D":
+		{
+			"item": "more_stack:diorite_5"
+		}
+	},
+	"result":
+	{
+		"id": "more_stack:diorite_6"
+	}
+}

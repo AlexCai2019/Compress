@@ -1,6 +1,9 @@
 {
 	"variants":
 	{
-		"": { "model": "more_stack:block/cobbled_deepslate_4" }
+		"":
+		{
+			"model": "more_stack:block/cobbled_deepslate_4"
+		}
 	}
 }

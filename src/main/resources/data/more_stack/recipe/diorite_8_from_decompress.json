@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "diorite_8",
+	"ingredients":
+	[
+		{
+			"item": "more_stack:diorite_9"
+		}
+	],
+	"result":
+	{
+		"id": "more_stack:diorite_8",
+		"count": 9
+	}
+}

@@ -8,13 +8,6 @@ public class MoreStack implements ModInitializer
 
 	static final int LAYERS = 9; //壓縮的最高層數
 
-	static final String[] BLOCKS = //可被壓縮的方塊
-	{
-		"netherrack",
-		"cobblestone",
-		"cobbled_deepslate"
-	};
-
 	@Override
 	public void onInitialize()
 	{

@@ -7,18 +7,28 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class ModBlocks
 {
-	static final Map<String, Block[]> blocksMap = new HashMap<>(); //方塊名稱與它們對應的壓縮方塊們
+	static final Map<String, Block[]> blocksMap = new LinkedHashMap<>(); //方塊名稱與它們對應的壓縮方塊們
+
+	private static final String[] BLOCKS = //可被壓縮的方塊
+	{
+		"cobblestone",
+		"cobbled_deepslate",
+		"granite",
+		"diorite",
+		"andesite",
+		"netherrack"
+	};
 
 	static void initialize()
 	{
-		for (String blockName : MoreStack.BLOCKS) //走訪所有要被註冊的方塊們
+		for (String blockName : BLOCKS) //走訪所有要被註冊的方塊們
 		{
-			Block[] blocks = new Block[MoreStack.LAYERS]; //每一個元素 都是一個壓縮方塊
+			Block[] blocks = new Block[MoreStack.LAYERS]; //每一個陣列元素 都是一個壓縮方塊
 
 			for (int layer = 0; layer < MoreStack.LAYERS; layer++) //以層數作為名稱的流水號
 			{

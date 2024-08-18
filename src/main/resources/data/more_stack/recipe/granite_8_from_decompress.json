@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "granite_8",
+	"ingredients":
+	[
+		{
+			"item": "more_stack:granite_9"
+		}
+	],
+	"result":
+	{
+		"id": "more_stack:granite_8",
+		"count": 9
+	}
+}
