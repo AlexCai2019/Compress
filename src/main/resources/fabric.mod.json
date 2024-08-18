@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "more_stack",
+	"version": "${version}",
+	"name": "More-Stack",
+	"description": "",
+	"authors": [
+		"Alex Cai"
+	],
+	"contact": {
+		"repo": "https://github.com/AlexCai2019/More-Stack"
+	},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/more_stack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"ac.more_stack.client.MoreStackClient"
+		],
+		"main": [
+			"ac.more_stack.MoreStack"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "${minecraft_version}"
+	}
+}

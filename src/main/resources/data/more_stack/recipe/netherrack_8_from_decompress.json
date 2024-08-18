@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "netherrack_8",
+	"ingredients":
+	[
+		{
+			"item": "more_stack:netherrack_9"
+		}
+	],
+	"result":
+	{
+		"id": "more_stack:netherrack_8",
+		"count": 9
+	}
+}
