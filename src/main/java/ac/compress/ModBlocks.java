@@ -22,7 +22,8 @@ public class ModBlocks
 		"granite",
 		"diorite",
 		"andesite",
-		"netherrack"
+		"netherrack",
+		"end_stone"
 	};
 
 	static void initialize()

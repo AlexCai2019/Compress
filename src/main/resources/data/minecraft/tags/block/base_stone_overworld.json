@@ -1,0 +1,33 @@
+{
+	"replace": false,
+	"values":
+	[
+		"compress:granite_1",
+		"compress:granite_2",
+		"compress:granite_3",
+		"compress:granite_4",
+		"compress:granite_5",
+		"compress:granite_6",
+		"compress:granite_7",
+		"compress:granite_8",
+		"compress:granite_9",
+		"compress:diorite_1",
+		"compress:diorite_2",
+		"compress:diorite_3",
+		"compress:diorite_4",
+		"compress:diorite_5",
+		"compress:diorite_6",
+		"compress:diorite_7",
+		"compress:diorite_8",
+		"compress:diorite_9",
+		"compress:andesite_1",
+		"compress:andesite_2",
+		"compress:andesite_3",
+		"compress:andesite_4",
+		"compress:andesite_5",
+		"compress:andesite_6",
+		"compress:andesite_7",
+		"compress:andesite_8",
+		"compress:andesite_9"
+	]
+}

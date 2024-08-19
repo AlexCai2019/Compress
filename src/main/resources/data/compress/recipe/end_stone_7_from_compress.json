@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "end_stone_7",
+	"pattern":
+	[
+		"EEE",
+		"EEE",
+		"EEE"
+	],
+	"key":
+	{
+		"E":
+		{
+			"item": "compress:end_stone_6"
+		}
+	},
+	"result":
+	{
+		"id": "compress:end_stone_7"
+	}
+}
