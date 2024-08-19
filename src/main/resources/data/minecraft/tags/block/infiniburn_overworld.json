@@ -2,14 +2,14 @@
 	"replace": false,
 	"values":
 	[
-		"more_stack:netherrack_1",
-		"more_stack:netherrack_2",
-		"more_stack:netherrack_3",
-		"more_stack:netherrack_4",
-		"more_stack:netherrack_5",
-		"more_stack:netherrack_6",
-		"more_stack:netherrack_7",
-		"more_stack:netherrack_8",
-		"more_stack:netherrack_9"
+		"compress:netherrack_1",
+		"compress:netherrack_2",
+		"compress:netherrack_3",
+		"compress:netherrack_4",
+		"compress:netherrack_5",
+		"compress:netherrack_6",
+		"compress:netherrack_7",
+		"compress:netherrack_8",
+		"compress:netherrack_9"
 	]
 }

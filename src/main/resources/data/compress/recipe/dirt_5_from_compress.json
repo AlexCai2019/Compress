@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "dirt_5",
+	"pattern":
+	[
+		"DDD",
+		"DDD",
+		"DDD"
+	],
+	"key":
+	{
+		"D":
+		{
+			"item": "compress:dirt_4"
+		}
+	},
+	"result":
+	{
+		"id": "compress:dirt_5"
+	}
+}

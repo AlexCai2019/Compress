@@ -1,0 +1,9 @@
+{
+	"variants":
+	{
+		"":
+		{
+			"model": "compress:block/cobblestone_2"
+		}
+	}
+}

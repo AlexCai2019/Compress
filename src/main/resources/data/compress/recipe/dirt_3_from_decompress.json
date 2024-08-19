@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "dirt_3",
+	"ingredients":
+	[
+		{
+			"item": "compress:dirt_4"
+		}
+	],
+	"result":
+	{
+		"id": "compress:dirt_3",
+		"count": 9
+	}
+}

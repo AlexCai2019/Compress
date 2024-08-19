@@ -2,14 +2,14 @@
 	"replace": false,
 	"values":
 	[
-		"more_stack:dirt_1",
-		"more_stack:dirt_2",
-		"more_stack:dirt_3",
-		"more_stack:dirt_4",
-		"more_stack:dirt_5",
-		"more_stack:dirt_6",
-		"more_stack:dirt_7",
-		"more_stack:dirt_8",
-		"more_stack:dirt_9"
+		"compress:dirt_1",
+		"compress:dirt_2",
+		"compress:dirt_3",
+		"compress:dirt_4",
+		"compress:dirt_5",
+		"compress:dirt_6",
+		"compress:dirt_7",
+		"compress:dirt_8",
+		"compress:dirt_9"
 	]
 }

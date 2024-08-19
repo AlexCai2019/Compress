@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "netherrack_8",
+	"pattern":
+	[
+		"NNN",
+		"NNN",
+		"NNN"
+	],
+	"key":
+	{
+		"N":
+		{
+			"item": "compress:netherrack_7"
+		}
+	},
+	"result":
+	{
+		"id": "compress:netherrack_8"
+	}
+}

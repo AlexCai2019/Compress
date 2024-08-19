@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "andesite_3",
+	"pattern":
+	[
+		"AAA",
+		"AAA",
+		"AAA"
+	],
+	"key":
+	{
+		"A":
+		{
+			"item": "compress:andesite_2"
+		}
+	},
+	"result":
+	{
+		"id": "compress:andesite_3"
+	}
+}

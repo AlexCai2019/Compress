@@ -1,24 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "more_stack",
+	"id": "compress",
 	"version": "${version}",
-	"name": "More-Stack",
+	"name": "Compress",
 	"description": "",
 	"authors": [
 		"Alex Cai"
 	],
 	"contact": {
-		"repo": "https://github.com/AlexCai2019/More-Stack"
+		"repo": "https://github.com/AlexCai2019/Compress"
 	},
 	"license": "All-Rights-Reserved",
-	"icon": "assets/more_stack/icon.png",
+	"icon": "assets/compress/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"client": [
-			"ac.more_stack.client.MoreStackClient"
+			"ac.compress.client.CompressClient"
 		],
 		"main": [
-			"ac.more_stack.MoreStack"
+			"ac.compress.Compress"
 		]
 	},
 	"depends": {

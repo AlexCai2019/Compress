@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "cobbled_deepslate_5",
+	"pattern":
+	[
+		"CCC",
+		"CCC",
+		"CCC"
+	],
+	"key":
+	{
+		"C":
+		{
+			"item": "compress:cobbled_deepslate_4"
+		}
+	},
+	"result":
+	{
+		"id": "compress:cobbled_deepslate_5"
+	}
+}

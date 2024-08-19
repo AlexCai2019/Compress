@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "andesite",
+	"ingredients":
+	[
+		{
+			"item": "compress:andesite_1"
+		}
+	],
+	"result":
+	{
+		"id": "minecraft:andesite",
+		"count": 9
+	}
+}
