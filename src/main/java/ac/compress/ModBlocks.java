@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class ModBlocks
 {
-	static final Map<String, Block[]> blocksMap = new LinkedHashMap<>(); //方塊名稱與它們對應的壓縮方塊們
+	public static ModBlocks instance = new ModBlocks();
 
 	private static final String[] BLOCKS = //可被壓縮的方塊
 	{
@@ -24,10 +24,13 @@ public class ModBlocks
 		"diorite",
 		"andesite",
 		"netherrack",
+		"blackstone",
 		"end_stone"
 	};
 
-	static void initialize()
+	protected final Map<String, Block[]> blocksMap = new LinkedHashMap<>(); //方塊名稱與它們對應的壓縮方塊們
+
+	public void initialize()
 	{
 		for (String blockName : BLOCKS) //走訪所有要被註冊的方塊們
 		{

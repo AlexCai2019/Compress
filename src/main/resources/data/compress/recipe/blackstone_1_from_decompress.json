@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "blackstone_1",
+	"ingredients":
+	[
+		{
+			"item": "compress:blackstone_2"
+		}
+	],
+	"result":
+	{
+		"id": "compress:blackstone_1",
+		"count": 9
+	}
+}

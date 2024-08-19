@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values":
+	[
+		"compress:stone_1",
+		"compress:stone_2",
+		"compress:stone_3",
+		"compress:stone_4",
+		"compress:stone_5",
+		"compress:stone_6",
+		"compress:stone_7",
+		"compress:stone_8",
+		"compress:stone_9"
+	]
+}

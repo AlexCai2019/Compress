@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "blackstone_4",
+	"pattern":
+	[
+		"BBB",
+		"BBB",
+		"BBB"
+	],
+	"key":
+	{
+		"B":
+		{
+			"item": "compress:blackstone_3"
+		}
+	},
+	"result":
+	{
+		"id": "compress:blackstone_4"
+	}
+}

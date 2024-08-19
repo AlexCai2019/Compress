@@ -11,7 +11,7 @@ public class Compress implements ModInitializer
 	@Override
 	public void onInitialize()
 	{
-		ModBlocks.initialize();
-		ModItems.initialize();
+		ModBlocks.instance.initialize();
+		ModItems.instance.initialize();
 	}
 }
