@@ -3,19 +3,19 @@
 	"category": "building",
 	"pattern":
 	[
-		"CCC",
-		"CCC",
-		"CCC"
+		"SSS",
+		"SSS",
+		"SSS"
 	],
 	"key":
 	{
-		"C":
+		"S":
 		{
-			"item": "compress:cobblestone_8"
+			"item": "compress:stone_8"
 		}
 	},
 	"result":
 	{
-		"id": "compress:cobblestone_9"
+		"id": "compress:stone_9"
 	}
 }

@@ -1,7 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "building",
-	"group": "andesite_9",
 	"pattern":
 	[
 		"AAA",

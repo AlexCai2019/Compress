@@ -17,6 +17,7 @@ public class ModBlocks
 	private static final String[] BLOCKS = //可被壓縮的方塊
 	{
 		"dirt",
+		"stone",
 		"cobblestone",
 		"cobbled_deepslate",
 		"granite",
@@ -34,13 +35,14 @@ public class ModBlocks
 
 			for (int layer = 0; layer < Compress.LAYERS; layer++) //以層數作為名稱的流水號
 			{
-				Identifier id = Identifier.of(Compress.MOD_ID, blockName + '_' + (layer + 1)); //方塊ID
-				blocks[layer] = new Block(Registries.BLOCK.get(Identifier.of(Identifier.DEFAULT_NAMESPACE, blockName)).getSettings()); //方塊
+				blocks[layer] = new Block(Registries.BLOCK.get(Identifier.of(Identifier.DEFAULT_NAMESPACE, blockName)).getSettings()); //建立一個新方塊 使用原本的屬性
+
+				Identifier id = Identifier.of(Compress.MOD_ID, blockName + '_' + (layer + 1)); //新方塊的ID
 				Registry.register(Registries.BLOCK, id, blocks[layer]); //註冊方塊
 				Registry.register(Registries.ITEM, id, new BlockItem(blocks[layer], new Item.Settings())); //註冊對應的物品
 			}
 
-			blocksMap.put(blockName, blocks); //放入方塊
+			blocksMap.put(blockName, blocks); //方塊放入map裡
 		}
 	}
 }

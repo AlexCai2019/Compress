@@ -1,15 +1,16 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"category": "building",
+	"group": "stone_1",
 	"ingredients":
 	[
 		{
-			"item": "compress:end_stone_1"
+			"item": "compress:stone_2"
 		}
 	],
 	"result":
 	{
-		"id": "minecraft:end_stone",
+		"id": "compress:stone_1",
 		"count": 9
 	}
 }

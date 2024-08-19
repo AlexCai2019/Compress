@@ -1,7 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "building",
-	"group": "cobbled_deepslate_9",
 	"pattern":
 	[
 		"CCC",

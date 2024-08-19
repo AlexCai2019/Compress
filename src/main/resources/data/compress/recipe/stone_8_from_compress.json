@@ -1,21 +1,22 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "building",
+	"group": "stone_8",
 	"pattern":
 	[
-		"CCC",
-		"CCC",
-		"CCC"
+		"SSS",
+		"SSS",
+		"SSS"
 	],
 	"key":
 	{
-		"C":
+		"S":
 		{
-			"item": "compress:cobblestone_8"
+			"item": "compress:stone_7"
 		}
 	},
 	"result":
 	{
-		"id": "compress:cobblestone_9"
+		"id": "compress:stone_8"
 	}
 }
