@@ -5,12 +5,13 @@ public class Generate
 {
 	private static final String[] blocks =
 	{
-		"netherrack",
+		"dirt",
 		"cobblestone",
 		"cobbled_deepslate",
-		"andesite",
+		"granite",
 		"diorite",
-		"granite"
+		"andesite",
+		"netherrack"
 	};
 	private static final int LAYERS = 9;
 

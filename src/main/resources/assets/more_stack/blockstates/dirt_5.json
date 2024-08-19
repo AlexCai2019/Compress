@@ -1,0 +1,9 @@
+{
+	"variants":
+	{
+		"":
+		{
+			"model": "more_stack:block/dirt_5"
+		}
+	}
+}

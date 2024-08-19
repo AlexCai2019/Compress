@@ -16,6 +16,7 @@ public class ModBlocks
 
 	private static final String[] BLOCKS = //可被壓縮的方塊
 	{
+		"dirt",
 		"cobblestone",
 		"cobbled_deepslate",
 		"granite",

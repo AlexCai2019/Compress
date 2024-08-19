@@ -14,7 +14,7 @@ public class ModItems
 	{
 		//壓縮方塊 item group
 		Registry.register(Registries.ITEM_GROUP, Identifier.of(MoreStack.MOD_ID, "item_group"), FabricItemGroup.builder()
-				.icon(() -> new ItemStack(ModBlocks.blocksMap.get("netherrack")[0])) //以一層地獄石為icon
+				.icon(() -> new ItemStack(ModBlocks.blocksMap.get("cobblestone")[0])) //以一層鵝卵石為icon
 				.displayName(Text.translatable("itemGroup.compressedBlocks")) //名稱
 				.entries((context, entries) ->
 				{

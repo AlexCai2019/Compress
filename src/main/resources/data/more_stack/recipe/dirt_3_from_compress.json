@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "dirt_3",
+	"pattern":
+	[
+		"DDD",
+		"DDD",
+		"DDD"
+	],
+	"key":
+	{
+		"D":
+		{
+			"item": "more_stack:dirt_2"
+		}
+	},
+	"result":
+	{
+		"id": "more_stack:dirt_3"
+	}
+}
