@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "sand_4",
+	"ingredients":
+	[
+		{
+			"item": "compress:sand_5"
+		}
+	],
+	"result":
+	{
+		"id": "compress:sand_4",
+		"count": 9
+	}
+}

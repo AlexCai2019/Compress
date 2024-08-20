@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "gravel_7",
+	"pattern":
+	[
+		"GGG",
+		"GGG",
+		"GGG"
+	],
+	"key":
+	{
+		"G":
+		{
+			"item": "compress:gravel_6"
+		}
+	},
+	"result":
+	{
+		"id": "compress:gravel_7"
+	}
+}

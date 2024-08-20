@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "sand_6",
+	"pattern":
+	[
+		"SSS",
+		"SSS",
+		"SSS"
+	],
+	"key":
+	{
+		"S":
+		{
+			"item": "compress:sand_5"
+		}
+	},
+	"result":
+	{
+		"id": "compress:sand_6"
+	}
+}
