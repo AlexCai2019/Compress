@@ -57,13 +57,13 @@ public class ModBlocks
 
 	private Block createBlock(BlockData blockData)
 	{
+		//建立一個新方塊 使用原本的屬性
 		AbstractBlock.Settings settings = Registries.BLOCK.get(Identifier.of(Identifier.DEFAULT_NAMESPACE, blockData.name)).getSettings();
 
-		//建立一個新方塊 使用原本的屬性
-		if (blockData.type == Block.class)
+		if (blockData.type == Block.class) //普通的方塊
 			return new Block(settings);
 
-		if (blockData.type == ColoredFallingBlock.class)
+		if (blockData.type == ColoredFallingBlock.class) //重力方塊
 			return new ColoredFallingBlock(new ColorCode(switch (blockData.name)
 			{
 				case "sand" -> 0xDBD3A0;
@@ -71,7 +71,7 @@ public class ModBlocks
 				default -> 0;
 			}), settings);
 
-		return Blocks.AIR;
+		return Blocks.AIR; //都不是就回傳空氣
 	}
 
 	private record BlockData(String name, Class<? extends Block> type) {}
