@@ -3,14 +3,14 @@
 	"id": "compress",
 	"version": "${version}",
 	"name": "Compress",
-	"description": "",
+	"description": "Add more compressed blocks",
 	"authors": [
 		"Alex Cai"
 	],
 	"contact": {
 		"repo": "https://github.com/AlexCai2019/Compress"
 	},
-	"license": "All-Rights-Reserved",
+	"license": "GPL-3.0-or-later",
 	"icon": "assets/compress/icon.png",
 	"environment": "*",
 	"entrypoints": {

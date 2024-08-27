@@ -1,9 +1,6 @@
 package ac.compress;
 
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ColoredFallingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -31,6 +28,7 @@ public class ModBlocks
 		new BlockData("gravel", ColoredFallingBlock.class),
 		new BlockData("netherrack", Block.class),
 		new BlockData("blackstone", Block.class),
+		new BlockData("soul_sand", SoulSandBlock.class),
 		new BlockData("end_stone", Block.class)
 	};
 
@@ -62,6 +60,9 @@ public class ModBlocks
 
 		if (blockData.type == Block.class) //普通的方塊
 			return new Block(settings);
+
+		if (blockData.type == SoulSandBlock.class) //普通的方塊
+			return new SoulSandBlock(settings);
 
 		if (blockData.type == ColoredFallingBlock.class) //重力方塊
 			return new ColoredFallingBlock(new ColorCode(switch (blockData.name)
